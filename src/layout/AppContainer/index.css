@@ -1,0 +1,46 @@
+.app-container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main{
+  display: flex;
+  flex: 1 1 0;
+}
+
+.app-logo{
+  width: 20vw;
+  max-width: 200px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6cb2dd;
+}
+
+
+.app-header{
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 5rem;
+  padding: 0;
+  margin: 0;
+  background: #6cb2dd;
+  box-shadow: 0px 3px 10px #aaa;
+}
+
+.app-header-content{
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.app-sider{
+  width: 20vw;
+  max-width: 200px;
+}
