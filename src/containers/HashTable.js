@@ -6,7 +6,7 @@ import { getHashtags } from '../actions';
 
 const HashTable = ({ stats: { data, loading }, getHashtags }) => {
   useEffect(() => {
-    // getHashtags(['USA', 'Germany', 'FRA']);
+    getHashtags(['USA', 'Germany', 'FRA']);
   }, []);
   return <Table data={data} />
 }

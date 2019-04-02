@@ -8,8 +8,6 @@ export const getHashtags = (countries) => async dispatch => {
     console.log(data);
     dispatch({ type: c.GET_HASHTAGS_SECCESS, data});
   } catch(err){
-    console.log('error \n',err);
-    
-    // message(err.message)
+    dispatch({ type: c.GET_HASHTAGS_ERROR, data: err.response.data.error });
   }
 }

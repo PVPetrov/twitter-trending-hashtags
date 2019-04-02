@@ -68,9 +68,7 @@ a:hover{
 
 @media only screen and (max-width: 750px){
   .column{
-    width: 100vw;
-  }
-  .table{
-    overflow-y: auto;
+    min-width: 100vw;
+    
   }
 }
